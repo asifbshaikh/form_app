@@ -1,0 +1,56 @@
+
+
+users has_many servers
+
+id
+name string
+mobile number
+
+surve belongs_to user
+id 
+name  string
+type string
+user_id (FK)
+
+surve_form belongs_to srver
+surve_form has_many question
+id 
+question_type
+surve_id (FK)
+
+
+
+
+questions
+id
+surve_form (Fk)
+question
+answer
+
+
+
+
+customer 
+
+id 
+name string
+customer_resonses
+id
+surve_id (FK)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
